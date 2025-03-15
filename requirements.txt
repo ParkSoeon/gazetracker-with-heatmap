@@ -1,6 +1,5 @@
 numpy
 opencv-python
-autopy
 matplotlib
 seaborn
 Pillow
