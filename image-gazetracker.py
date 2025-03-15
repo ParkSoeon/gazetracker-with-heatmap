@@ -66,7 +66,7 @@ video_capture = cv2.VideoCapture(0)
 eye_x_positions = list()
 eye_y_positions = list()
 
-screen_resolution = pyautogui.screen.size()
+screen_resolution = pyautogui.onScreen.size()
 print("screen resolution is")
 print(screen_resolution)
 if video_capture.isOpened():
